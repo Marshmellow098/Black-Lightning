@@ -223,11 +223,11 @@ LIGHTNING_WARN = os.environ.get("LIGHTNING_WARN", None)
 if LIGHTNING_WARN is None:
     WARNING = (
     f"**{BOT_LIT}"
-    f"** Im Here To Protect {LIGHTNINGUSER} Dont Under Estimate Me 😂😂  **\n\n"
-    f"**My Master {LIGHTNINGUSER} is Busy Right Now !** \n"
-    f"{LIGHTNINGUSER} Is Very Busy Why Came Please Lemme Know Choose Your Deasired Reason"
-    f"**Btw Dont Spam Or Get Banned** 😂 \n\n"
-    f"**Choose Any Reason Then Get Lost**\n"
+    f"** Im Here To Protect @Mellowxd Dont Under Estimate Me 😂😂  **\n\n"
+    f"**@Mellowxd is Busy Right Now ig !** \n"
+    "Here are some reason for you choose anyone"
+    f"**Don't waste your time to spam here i will ban u immediately** 😂 \n\n"
+    f"**Choose Any Reason Then wait for @Mellowxd**\n"
 )
 else:
     WARNING = LIGHTNING_WARN
@@ -284,18 +284,18 @@ async def inline_handler(lightning):
             file=LIGHTNING_WARNING,
             text=WARNING,
             buttons=[
-                [custom.Button.inline("Wanna Spam Some Porn Images?😉", data="lightning_is_here_cant_spam")],
+                [custom.Button.inline("To talk with @Mellowxd", data="Wait for him to allow")],
                 [
                     custom.Button.inline(
                         "My Friend❤️❤️",
-                        data="he_sucks",
+                        data="ok wait for him like a good friend",
                     )
                 ],
-                [custom.Button.inline("Requesting🙏", data="fck_ask")],
+                [custom.Button.inline("Requesting something to @Mellowxd", data="request and move he will reply")],
                 [
                     custom.Button.inline(
-                        "Fuck Lemme In🖕", 
-                        data="lol_u_think_so",
+                        "Just to spoil his inbox", 
+                        data="🖕🖕fuck your inbox",
                         
                     )
                         
